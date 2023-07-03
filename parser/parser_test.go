@@ -45,6 +45,7 @@ func TestReturnStatements(t *testing.T) {
 		{"return 5;", 5},
 		{"return true;", true},
 		{"return y;", "y"},
+		{"return y", "y"},
 	}
 
 	for _, tt := range tests {
